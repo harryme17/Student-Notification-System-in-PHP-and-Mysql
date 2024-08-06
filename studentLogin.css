@@ -1,0 +1,14 @@
+.container{
+    margin-top: 200px;
+  }
+  a:link {
+      text-decoration: none;
+      color: aliceblue;
+    }
+    a:visited {
+      color: white;
+    }
+
+.submit_btn{
+    margin-top: 18px;
+}

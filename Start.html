@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous"
+    >
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Choose Your Role</title>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+            width: 30rem;
+            padding: 2.5rem;
+            background-color: #ffffff;
+            margin-bottom: 2rem;
+        }
+
+        .card-title {
+            font-size: 2.75rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: #333333;
+        }
+
+        .card-text {
+            font-size: 1.25rem;
+            color: #666666;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 576px) {
+            .card {
+                width: 90%;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container d-flex flex-column align-items-center">
+        <!-- New card with information -->
+        <div class="card text-center">
+            <p class="card-text">
+                This is the Entry point to the Parent Notification System 
+                <a href="https://www.instagram.com/harryme.17" class="text-danger">@harryme.17</a>
+            </p>
+        </div>
+
+        <!-- Existing card for role selection -->
+        <div class="card text-center">
+            <h1 class="card-title">Choose Your Role</h1>
+            <div class="d-grid gap-4">
+                <a class="btn btn-secondary" href="studentLogin.php">Student</a>
+                <a class="btn btn-secondary" href="staffLogin.php">Staff</a>
+                <a class="btn btn-secondary" href="adminLogin.php">Admin</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
