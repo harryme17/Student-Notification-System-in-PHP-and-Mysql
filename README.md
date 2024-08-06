@@ -32,7 +32,7 @@ Teachers Side UI
 3. **Create the Database:**
    - Open phpMyAdmin through XAMPP.
    - Create a new database named `login`.
-   - Import the provided SQL queries to set up the required tables and initial data.
+   - Import the provided SQL files.
 
 4. **Run the Application:**
    - Place the project files in the `htdocs` directory of your XAMPP installation.
