@@ -5,7 +5,7 @@
 The Student Notification System is a web application developed to facilitate communication between staff members and students. It allows staff to send notifications and attendance updates directly to students. This project was created during my diploma studies.
 
 ## Images
-###Students Side UI
+Students Side UI
 
 ![image](https://github.com/user-attachments/assets/8dcd06d9-8d13-450e-8ea0-a37a2a362373)
 
