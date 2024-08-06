@@ -27,7 +27,7 @@ The Student Notification System is a web application developed to facilitate com
 4. **Run the Application:**
    - Place the project files in the `htdocs` directory of your XAMPP installation.
    - Start the Apache and MySQL services from the XAMPP control panel.
-   - Open your browser and navigate to `http://localhost/{your_project_directory}` to access the application.
+   - Open your browser and navigate to `http://localhost/Student-Notification-System-in-PHP-and-Mysql-main/Start.html` to access the application.
 
 ## Features
 
